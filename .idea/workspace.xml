@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bcc4a53-a15d-4e26-ba67-e26d832b8234" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/init.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/controller/FlightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/PostgreSQLDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/jsondata/BookingJsonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/jsondata/FlightJsonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/booking/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/booking/BookingInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/booking/BookingObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/booking/BookingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/flight/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/flight/FlightInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/flight/Pax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/model/flight/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/repository/BookingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/repository/FlightRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/repository/PassengerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/model/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/model/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/model/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/service/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/service/FlightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/service/impl/BookingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/service/impl/FlightServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/utils/JsonToCollectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tui/proof/ws/controller/BookingControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tui/proof/ws/controller/FlightControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tui/proof/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/controller/FooController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tui/proof/ws/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sDJeEZAfb6AqrWkHetafOkPGTv" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27126437" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources/flights" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tui.proof.ws.service" />
+      <recent name="com.tui.proof.ws.service.impl" />
+      <recent name="com.tui.proof.ws.domain.jsondata" />
+      <recent name="com.tui.proof.api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/tui/proof/ws" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BookingControllerTest.createModulatedBookingTest">
+    <configuration name="BookingControllerTest.createModulatedBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="availability-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tui.proof.ws.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tui.proof.ws.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tui.proof.ws.controller.BookingControllerTest" />
+      <option name="METHOD_NAME" value="createModulatedBookingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingControllerTest.getHardcodedBookingByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="availability-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tui.proof.ws.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tui.proof.ws.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tui.proof.ws.controller.BookingControllerTest" />
+      <option name="METHOD_NAME" value="getHardcodedBookingByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplicationTest.confirmBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="availability-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tui.proof.ws.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tui.proof.ws.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tui.proof.ws.controller.MainApplicationTest" />
+      <option name="METHOD_NAME" value="confirmBookingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplicationTest.createNewBookingDraftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="availability-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tui.proof.ws.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tui.proof.ws.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tui.proof.ws.controller.MainApplicationTest" />
+      <option name="METHOD_NAME" value="createNewBookingDraftTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplicationTest.getBookingsDraftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="availability-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tui.proof.ws.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tui.proof.ws.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tui.proof.ws.controller.MainApplicationTest" />
+      <option name="METHOD_NAME" value="getBookingsDraftTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="debug" type="Remote">
+      <module name="availability-api" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BookingControllerTest.createModulatedBookingTest" />
+      <item itemvalue="JUnit.BookingControllerTest.getHardcodedBookingByIdTest" />
+      <item itemvalue="JUnit.MainApplicationTest.confirmBookingTest" />
+      <item itemvalue="JUnit.MainApplicationTest.createNewBookingDraftTest" />
+      <item itemvalue="JUnit.MainApplicationTest.getBookingsDraftTest" />
+      <item itemvalue="Remote.debug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookingControllerTest.createModulatedBookingTest" />
+        <item itemvalue="JUnit.BookingControllerTest.getHardcodedBookingByIdTest" />
+        <item itemvalue="JUnit.MainApplicationTest.confirmBookingTest" />
+        <item itemvalue="JUnit.MainApplicationTest.createNewBookingDraftTest" />
+        <item itemvalue="JUnit.MainApplicationTest.getBookingsDraftTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bcc4a53-a15d-4e26-ba67-e26d832b8234" name="Default Changelist" comment="" />
+      <created>1620401320533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620401320533</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="166" y="387" width="1401" height="746" key="#Plugins" timestamp="1620401580096">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="166" y="387" width="1401" height="746" key="#Plugins/53.27.2507.1413@53.27.2507.1413" timestamp="1620401580096" />
+    <state x="268" y="331" width="1446" height="890" key="#Project_Structure" timestamp="1620469306078">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="268" y="331" width="1446" height="890" key="#Project_Structure/53.27.2507.1413@53.27.2507.1413" timestamp="1620469306078" />
+    <state x="1039" y="491" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1620634639862">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="1039" y="491" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620634639862" />
+    <state x="309" y="354" width="1537" height="898" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620750460878">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="309" y="354" width="1537" height="898" key="#com.intellij.execution.impl.EditConfigurationsDialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620750460878" />
+    <state x="488" y="442" width="374" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1620634007311">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="488" y="442" width="374" height="590" key="#com.intellij.ide.util.MemberChooser/53.27.2507.1413@53.27.2507.1413" timestamp="1620634007311" />
+    <state x="989" y="471" width="624" height="531" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1620837662616">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="989" y="471" width="624" height="531" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620837662616" />
+    <state x="926" y="176" width="1119" height="973" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620798061491">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="926" y="176" width="1119" height="973" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620798061491" />
+    <state x="1039" y="483" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620500608628">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="1039" y="483" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620500608628" />
+    <state x="1033" y="578" width="536" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1620746234924">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="1033" y="578" width="536" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/53.27.2507.1413@53.27.2507.1413" timestamp="1620746234924" />
+    <state width="485" height="485" key="DebuggerActiveHint" timestamp="1620758350595">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="485" height="485" key="DebuggerActiveHint/53.27.2507.1413@53.27.2507.1413" timestamp="1620758350595" />
+    <state x="627" y="287" width="1003" height="843" key="FileChooserDialogImpl" timestamp="1620469268011">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="627" y="287" width="1003" height="843" key="FileChooserDialogImpl/53.27.2507.1413@53.27.2507.1413" timestamp="1620469268011" />
+    <state width="2465" height="368" key="GridCell.Tab.0.bottom" timestamp="1620839679334">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="2465" height="368" key="GridCell.Tab.0.bottom/53.27.2507.1413@53.27.2507.1413" timestamp="1620839679334" />
+    <state width="2465" height="368" key="GridCell.Tab.0.center" timestamp="1620839679333">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="2465" height="368" key="GridCell.Tab.0.center/53.27.2507.1413@53.27.2507.1413" timestamp="1620839679333" />
+    <state width="2465" height="368" key="GridCell.Tab.0.left" timestamp="1620839679333">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="2465" height="368" key="GridCell.Tab.0.left/53.27.2507.1413@53.27.2507.1413" timestamp="1620839679333" />
+    <state width="2465" height="368" key="GridCell.Tab.0.right" timestamp="1620839679333">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="2465" height="368" key="GridCell.Tab.0.right/53.27.2507.1413@53.27.2507.1413" timestamp="1620839679333" />
+    <state width="2465" height="323" key="GridCell.Tab.1.bottom" timestamp="1620839051436">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="2465" height="323" key="GridCell.Tab.1.bottom/53.27.2507.1413@53.27.2507.1413" timestamp="1620839051436" />
+    <state width="2465" height="323" key="GridCell.Tab.1.center" timestamp="1620839051435">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="2465" height="323" key="GridCell.Tab.1.center/53.27.2507.1413@53.27.2507.1413" timestamp="1620839051435" />
+    <state width="2465" height="323" key="GridCell.Tab.1.left" timestamp="1620839051435">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="2465" height="323" key="GridCell.Tab.1.left/53.27.2507.1413@53.27.2507.1413" timestamp="1620839051435" />
+    <state width="2465" height="323" key="GridCell.Tab.1.right" timestamp="1620839051436">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state width="2465" height="323" key="GridCell.Tab.1.right/53.27.2507.1413@53.27.2507.1413" timestamp="1620839051436" />
+    <state x="889" y="479" width="824" height="515" key="IDE.errors.dialog" timestamp="1620479855127">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="889" y="479" width="824" height="515" key="IDE.errors.dialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620479855127" />
+    <state x="839" y="391" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1620557032515">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="839" y="391" width="924" height="691" key="Maven.ArtifactSearchDialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620557032515" />
+    <state x="123" y="202" width="1964" height="1100" key="SettingsEditor" timestamp="1620510872150">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="123" y="202" width="1964" height="1100" key="SettingsEditor/53.27.2507.1413@53.27.2507.1413" timestamp="1620510872150" />
+    <state x="153" y="127" width="2307" height="1213" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1620559206379">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="153" y="127" width="2307" height="1213" key="com.intellij.history.integration.ui.views.FileHistoryDialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620559206379" />
+    <state x="916" y="347" width="770" height="780" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1620472257569">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="916" y="347" width="770" height="780" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/53.27.2507.1413@53.27.2507.1413" timestamp="1620472257569" />
+    <state x="819" y="463" width="964" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620502960154">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="819" y="463" width="964" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/53.27.2507.1413@53.27.2507.1413" timestamp="1620502960154" />
+    <state x="440" y="218" width="1157" height="771" key="find.popup" timestamp="1620797608292">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="440" y="218" width="1157" height="771" key="find.popup/53.27.2507.1413@53.27.2507.1413" timestamp="1620797608292" />
+    <state x="876" y="490" width="801" height="519" key="refactoring.ChangeSignatureDialog" timestamp="1620559830902">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="876" y="490" width="801" height="519" key="refactoring.ChangeSignatureDialog/53.27.2507.1413@53.27.2507.1413" timestamp="1620559830902" />
+    <state x="343" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1620556953141">
+      <screen x="53" y="27" width="2507" height="1413" />
+    </state>
+    <state x="343" y="349" width="672" height="678" key="search.everywhere.popup/53.27.2507.1413@53.27.2507.1413" timestamp="1620556953141" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tui/proof/model/repository/MapConverter.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tui/proof/model/repository/MapConverter.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tui/proof/service/FlightServiceImpl.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tui/proof/ws/controller/AbstractController.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tui/proof/ws/controller/FeeControllerTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tui/proof/ws/controller/AbstractController.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tui/proof/MainApplication.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tui/proof/ws/utils/JsonToCollectionUtil.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tui/proof/ws/domain/PostgreSQLDialect.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tui/proof/ws/controller/BookingControllerTest.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tui/proof/ws/controller/BookingControllerTest.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.exception.DataException" package="org.hibernate.exception" />
+          <option name="timeStamp" value="44" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

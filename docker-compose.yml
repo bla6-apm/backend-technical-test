@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  #service 1: definition of database
+  db:
+    image: postgres:13.1
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "reservation" ]
+      timeout: 45s
+      interval: 10s
+      retries: 10
+    restart: always
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=reservation
+      - APP_DB_USER=reservation
+      - APP_DB_PASS=reservation
+      - APP_DB_NAME=reservation
+      - APP_DB_TABLE_FLIGHT=flight
+      - APP_DB_TABLE_PASSENGER=passenger
+      - APP_DB_TABLE_BOOKING=booking
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/
+    ports:
+      - 5432:5432
+
+  #service 2: definition of spring-boot app
+  availabilityApi:
+    image: availability-api
+    container_name: availability-api-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/reservation
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    ports:
+      - 8080:8080
+      - 5005:5005
